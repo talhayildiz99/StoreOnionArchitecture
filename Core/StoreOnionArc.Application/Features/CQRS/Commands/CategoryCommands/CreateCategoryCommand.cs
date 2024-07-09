@@ -4,11 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace StoreOnionArc.Application.Features.CQRS.Commands
+namespace StoreOnionArc.Application.Features.CQRS.Commands.CategoryCommands
 {
-    public class UpdateCategoryCommand
+    public class CreateCategoryCommand
     {
-        public int CategoryId { get; set; }
         public string CategoryName { get; set; }
     }
 }

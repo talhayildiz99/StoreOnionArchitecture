@@ -1,5 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using StoreOnionArc.Application.Features.CQRS.Commands;
+using StoreOnionArc.Application.Features.CQRS.Commands.CategoryCommands;
 using StoreOnionArc.Application.Features.CQRS.Handlers;
 
 namespace StoreOnionArc.WebUI.Controllers
