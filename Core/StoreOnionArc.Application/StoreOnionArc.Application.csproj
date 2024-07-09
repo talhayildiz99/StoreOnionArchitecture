@@ -7,8 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Features\CQRS\Handlers\" />
-    <Folder Include="Features\CQRS\Queries\CategoryQueries\" />
+    <ProjectReference Include="..\StoreOnionArc.Domain\StoreOnionArc.Domain.csproj" />
   </ItemGroup>
 
 </Project>
